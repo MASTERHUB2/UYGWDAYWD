@@ -1007,7 +1007,7 @@ function VLib:Window(textgame)
 			ColorSelection.BackgroundTransparency = 1.000
 			ColorSelection.Position = UDim2.new(preset and select(3, Color3.toHSV(preset)))
 			ColorSelection.Size = UDim2.new(0, 18, 0, 18)
-			ColorSelection.Image = "http://www.roblox.com/asset/?id=4805639000"
+			ColorSelection.Image = "http://www.roblox.com/asset/?id=8077237147"
 			ColorSelection.ScaleType = Enum.ScaleType.Fit
 
 			Confirm.Name = "Confirm"
