@@ -120,7 +120,7 @@ function VLib:Window(textgame)
 	local MainTitle = Instance.new("TextLabel")
 	local Circle = Instance.new("ImageLabel")
 	local CircleCorner = Instance.new("UICorner")
-	local CircleName = Instance.new("TextLabel")
+	local CircleName = Instance.new("ImageLabel")
 	local GameTitle = Instance.new("TextLabel")
 	local TabHolder = Instance.new("Frame")
 	local TabHoldLayout = Instance.new("UIListLayout")
@@ -175,12 +175,8 @@ function VLib:Window(textgame)
 	CircleName.Name = "CircleName"
 	CircleName.Parent = Circle
 	CircleName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	CircleName.BackgroundTransparency = 1.000
 	CircleName.Size = UDim2.new(0, 38, 0, 37)
-	CircleName.Font = Enum.Font.Gotham
-	CircleName.Text = "🟢"
-	CircleName.TextColor3 = Color3.fromRGB(255, 255, 255)
-	CircleName.TextSize = 16.000
+    Circle.Image = "http://www.roblox.com/asset/?id=8077237147"
 
 	GameTitle.Name = "GameTitle"
 	GameTitle.Parent = LeftFrame
