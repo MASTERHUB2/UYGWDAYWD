@@ -118,7 +118,7 @@ function VLib:Window(textgame)
 	local LeftFrame = Instance.new("Frame")
 	local LeftFrameCorner = Instance.new("UICorner")
 	local MainTitle = Instance.new("TextLabel")
-	local Circle = Instance.new("Frame")
+	local Circle = Instance.new("ImageLabel")
 	local CircleCorner = Instance.new("UICorner")
 	local CircleName = Instance.new("TextLabel")
 	local GameTitle = Instance.new("TextLabel")
@@ -166,6 +166,7 @@ function VLib:Window(textgame)
 	Circle.BackgroundColor3 = Color3.fromRGB(118, 106, 255)
 	Circle.Position = UDim2.new(0.0834304541, 0, 0.0474189818, 0)
 	Circle.Size = UDim2.new(0, 38, 0, 38)
+    Circle.Image = "http://www.roblox.com/asset/?id=8077237147"
 
 	CircleCorner.CornerRadius = UDim.new(2, 0)
 	CircleCorner.Name = "CircleCorner"
