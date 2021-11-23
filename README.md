@@ -166,7 +166,7 @@ function VLib:Window(textgame)
 	Circle.BackgroundColor3 = Color3.fromRGB(118, 106, 255)
 	Circle.Position = UDim2.new(0.0834304541, 0, 0.0474189818, 0)
 	Circle.Size = UDim2.new(0, 38, 0, 38)
-    Circle.Image = "http://www.roblox.com/asset/?id=8077237147"
+    Circle.Image = "http://www.roblox.com/asset/?id=7761075245"
 
 	CircleCorner.CornerRadius = UDim.new(2, 0)
 	CircleCorner.Name = "CircleCorner"
@@ -176,7 +176,7 @@ function VLib:Window(textgame)
 	CircleName.Parent = Circle
 	CircleName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	CircleName.Size = UDim2.new(0, 38, 0, 37)
-    Circle.Image = "http://www.roblox.com/asset/?id=8077237147"
+    Circle.Image = "http://www.roblox.com/asset/?id=7761075245"
 
 	GameTitle.Name = "GameTitle"
 	GameTitle.Parent = LeftFrame
